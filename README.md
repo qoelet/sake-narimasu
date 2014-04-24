@@ -6,6 +6,8 @@ you will need:
 
 - [RGraphviz](http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html)
 
+- [gridGraphviz](http://r-forge.r-project.org/projects/gridgraph/)
+
 - [sake]()
 
 ## quickly!
