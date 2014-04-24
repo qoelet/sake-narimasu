@@ -1,0 +1,25 @@
+process alpha:
+    help: some description
+    # no dependencies
+    formula: >
+        touch alpha.txt
+    output: 
+        - alpha.txt
+
+process beta:
+    help: some description
+    formula: >
+        cat alpha.txt > beta.txt
+    dependencies:
+        - alpha.txt
+    output:
+        - beta.txt
+
+process charlie:
+    help: some description
+    formula: >
+        cat beta.txt > charlie.txt
+    dependencies:
+        - beta.txt
+    output:
+        - charlie.txt

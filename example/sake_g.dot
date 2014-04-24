@@ -1,0 +1,7 @@
+strict digraph DependencyDiagram {
+"process beta" -> "process charlie" [color="black"];
+"process alpha" -> "process beta" [color="black"];
+"process charlie"
+"process beta"
+"process alpha"
+}
