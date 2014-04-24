@@ -33,7 +33,7 @@ simply,
 
 2. load them in R and use gridGraphviz to plot the dot file and save png, for example:
 
-![plot](sake_kirei.png)
+![plot](example/sake_kirei.png)
 
 ## why?
 
